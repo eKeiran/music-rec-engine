@@ -1,0 +1,31 @@
+digraph {
+	User [shape=ellipse]
+	MusicRecommendationSystem [shape=ellipse]
+	Admin [shape=ellipse]
+	SelectSong [label="Select a song for recommendations" shape=rectangle]
+	SelectOptions [label="Select options for recommendations:
+- Lyrics
+- Mood
+- Energy
+- Same year
+- Same artist
+- Popular/Underrated" shape=rectangle]
+	ChangeThemes [label="Change themes:
+- Light
+- Dark
+- Custom" shape=rectangle]
+	SeeAboutMe [label="See the about me of admins" shape=rectangle]
+	ChangeSongDataset [label="Change song dataset" shape=rectangle]
+	RestrictUsage [label="Restrict usage" shape=rectangle]
+	ReinventUI [label="Reinvent user interface" shape=rectangle]
+	User -> SelectSong
+	SelectSong -> MusicRecommendationSystem
+	MusicRecommendationSystem -> SelectOptions
+	SelectOptions -> MusicRecommendationSystem
+	MusicRecommendationSystem -> ChangeThemes
+	MusicRecommendationSystem -> SeeAboutMe
+	Admin -> MusicRecommendationSystem
+	Admin -> ChangeSongDataset
+	Admin -> RestrictUsage
+	Admin -> ReinventUI
+}

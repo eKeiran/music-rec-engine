@@ -1,0 +1,5 @@
+numpy
+pandas
+scikit_learn
+streamlit
+youtube_search_python
