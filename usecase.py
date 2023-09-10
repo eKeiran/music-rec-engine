@@ -11,6 +11,7 @@ dot.node('SelectOptions', shape='rectangle', label='Select options for recommend
 dot.node('ChangeThemes', shape='rectangle', label='Change themes:\n- Light\n- Dark\n- Custom')
 dot.node('SeeAboutMe', shape='rectangle', label='See the about me of admins')
 
+
 dot.node('ChangeSongDataset', shape='rectangle', label='Change song dataset')
 dot.node('RestrictUsage', shape='rectangle', label='Restrict usage')
 dot.node('ReinventUI', shape='rectangle', label='Reinvent user interface')
