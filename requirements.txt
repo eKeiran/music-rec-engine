@@ -1,5 +1,6 @@
-numpy
-pandas
-scikit_learn
-streamlit
-youtube_search_python
+numpy>=2.0,<3
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+streamlit>=1.55,<2
+requests>=2.31,<3
+pytest>=8,<10
